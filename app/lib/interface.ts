@@ -9,6 +9,6 @@ export interface fullBlog {
   currentSlug: string
   title: string
   content: any
-  _createdAt: string
+  publishedAt: string
   titleImage: any
 }
