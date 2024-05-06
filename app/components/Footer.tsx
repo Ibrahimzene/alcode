@@ -4,10 +4,10 @@ export default function Footer() {
     <footer className="bg-gray-600">
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-300 ">
-          <h2 className="text-[24px] mt-0">
+          <span className="text-[24px] mt-0">
             AlCode
             <span className="font-bold text-primary">Blog</span>
-          </h2>
+          </span>
           <br />I am a junior software engineer skilled in JavaScript,
           TypeScript and React Next.Js. I love tackling complex problems and
           working on innovative projects with a focus on efficiency and user
