@@ -12,6 +12,7 @@ async function getData() {
     title,
       smallDescription,
       "currentSlug": slug.current,
+      publishedAt,
       titleImage
 
   }`

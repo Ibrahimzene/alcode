@@ -29,6 +29,11 @@ export default {
       title: 'Small Description',
     },
     {
+      name: 'publishedAt',
+      type: 'datetime',
+      title: 'Published at',
+    },
+    {
       name: 'content',
       type: 'array',
       title: 'Content',
@@ -41,6 +46,7 @@ export default {
                 name: 'link',
                 type: 'object',
                 title: 'link',
+
                 fields: [
                   {
                     name: 'url',
@@ -63,6 +69,7 @@ export default {
                   alternative text is of great help for those 
                   people that can rely on it to have a good idea of 
                   what\'s on your page.`,
+
               options: {
                 isHighlighted: true,
               },
